@@ -1,3 +1,9 @@
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .intro {
   padding: 120px 100px;
   height: 100vh;
@@ -91,7 +97,12 @@
       }
     }
   }
-  &__tagline {
+  &__profile-image {
+    width: 40%;
+    min-width: 40%;
+    padding: 1em;
+  }
+  & &__tagline {
     font-weight: 300;
     max-width: 700px;
     .name {
@@ -133,5 +144,17 @@
         color: $white;
       }
     }
+  }
+}
+
+@media (max-width: 768px) {
+  .profile-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .intro__profile-image {
+    width: 100%;
+    min-width: 100%;
+    height: auto;
   }
 }
