@@ -1,0 +1,28 @@
+languages:
+  - item: JavaScript (ES6)
+  - item: TypeScript
+  - item: C++
+  - item: Python
+  - item: SQL
+
+frameworks:
+  - item: ReactJS
+  - item: Redux
+  - item: NestJS
+  - item: Node
+  - item: Express
+  - item: Django
+
+tools:
+  - item: Git & Github
+  - item: Postman
+  - item: MongoDB
+  - item: PostgreSQL
+  - item: Docker
+
+programming:
+  - item: Data Structures
+  - item: Algorithms
+  - item: Object Oriented Programming
+  - item: Functional Programming
+  - item: RESTful APIs

@@ -1,0 +1,43 @@
+# Site settings
+name: Bhargav Gohil
+title: Bhargav Gohil | Software Engineer
+description: A software engineer with a deep passion for problem-solving and a focus on frontend development
+url: https://bhargavgohil25.github.io/
+baseurl: ''
+email: bhargavgohil25@gmail.com
+cover: https://bhargavgohil25.github.io/img/og.png
+logo: https://bhargavgohil25.github.io/img/emojis/technologist.jpg
+resume: https://drive.google.com/file/d/1yoj8WHWptlIz-ycensvFbgxtVDagr2F9/view?usp=sharing
+social:
+  - title: email
+    url: mailto:bhargavgohil25@gmail.com
+  - title: twitter
+    url: https://twitter.com/bhargavgohil25
+  - title: instagram
+    url: https://www.instagram.com/bhargav_gohil25/
+  - title: github
+    url: https://github.com/bhargavgohil25
+  - title: linkedin
+    url: https://www.linkedin.com/in/bhargav-gohil25/
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - '*.gemspec'
+  - 'README.md'
+  - 'node_modules'
+  - 'build'
+  - 'gulpfile.js'
+  - 'package.json'
+
+keep_files:
+  - 'CNAME'
+  - '.git'
+  - '.gitignore'
+
+plugins_dir:
+  - jekyll-minifier
+  - jekyll-sitemap
