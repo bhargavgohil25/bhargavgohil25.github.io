@@ -3,11 +3,11 @@ name: Bhargav Gohil
 title: Bhargav Gohil | Software Engineer
 description: A software engineer with a deep passion for problem-solving and a focus on frontend development
 url: https://bhargavgohil25.github.io/
-baseurl: ''
+baseurl: ""
 email: bhargavgohil25@gmail.com
 cover: https://bhargavgohil25.github.io/img/og.png
 logo: https://bhargavgohil25.github.io/img/emojis/technologist.png
-resume: https://drive.google.com/file/d/1kJ3rJAtYfkZsi_0HyOtQW3rmyJ2sMu8R/view?usp=sharing
+resume: https://drive.google.com/file/d/1FgYLh3-cXhX0ykpbHWEw7HrYTT_PoSJp/view?usp=sharing
 social:
   - title: email
     url: mailto:bhargavgohil25@gmail.com
@@ -24,19 +24,19 @@ social:
 markdown: kramdown
 
 exclude:
-  - 'Gemfile'
-  - 'Gemfile.lock'
-  - '*.gemspec'
-  - 'README.md'
-  - 'node_modules'
-  - 'build'
-  - 'gulpfile.js'
-  - 'package.json'
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "*.gemspec"
+  - "README.md"
+  - "node_modules"
+  - "build"
+  - "gulpfile.js"
+  - "package.json"
 
 keep_files:
-  - 'CNAME'
-  - '.git'
-  - '.gitignore'
+  - "CNAME"
+  - ".git"
+  - ".gitignore"
 
 plugins_dir:
   - jekyll-minifier
