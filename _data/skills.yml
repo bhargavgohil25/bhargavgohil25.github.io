@@ -4,10 +4,12 @@ languages:
   - item: C++
   - item: Python
   - item: SQL
+  - item: Java
 
 frameworks:
   - item: ReactJS
   - item: Redux
+  - item: Spring Boot
   - item: NestJS
   - item: Node
   - item: Express
